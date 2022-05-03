@@ -2,7 +2,7 @@
 
 In this project, I created an ArrayList to store several phrases entered by the user. The program starts with a message asking the user to enter a phrase. If the user enters any numerals or the characters "@" or "#", there is a message saying the characters are invalid. I verify if there are any numbers using a regex to scan the string. The phrase will only be added to the ArrayList if none of these characters are present. Additionaly, the program will only continue if the ArrayList is not empty. That is, the user must enter at least one valid phrase for the program to continue.
 
-If the ArrayList is not empty, the program will prompt options for the user to choose. The user must enter a number corresponding to the chosen option. The block that validates the option is surrounded with try/catch to guarantee that the value entered will be a number.
+If the ArrayList is not empty, the program will display options for the user to choose. The user must enter a number corresponding to the chosen option. The block that validates the option is surrounded with try/catch to guarantee that the value entered will be a number.
 
 If the user enters number 3, the program ends with the message "End of program". Otherwise, the **cont** variable, which is of type boolean, receives the value "true" and the while loop begins. While the **cont** variable is set with the value "true", that is, while the user enters any option other than 3, the loop continues.
 
